@@ -2,14 +2,15 @@
 
 ## What it does?:
 
-1. Check git repository for nedw commit
-2. clone the code into the system
-3. Compile test/Using JRE create class file
+1. Check git repository for new commits
+2. Clone the committed code into the system
+3. Compile test, Using JRE, create class file
 4. Check if class file is created successfully
 5. Run the code in java environment
 6. Check the output
 7. If the output is successful
 8. Declare success
+9. Notification
 
 <img src = "screenshots/11.png" width=600>
 
