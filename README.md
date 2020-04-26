@@ -1,93 +1,51 @@
 # Project Automation using JENKINS
 
-<img src = "screenshots/11.png" width=320>
-<img src = "screenshots/0.png" width=320>
-<img src = "screenshots/1.png" width=320>
-<img src = "screenshots/2.png" width=320>
-<img src = "screenshots/3.png" width=320>
-<img src = "screenshots/4.png" width=320>
-<img src = "screenshots/5.png" width=320>
-<img src = "screenshots/6.png" width=320>
-<img src = "screenshots/7.png" width=320>
-<img src = "screenshots/8.png" width=320>
-<img src = "screenshots/9.png" width=320>
-<img src = "screenshots/10.png" width=320>
-<img src = "screenshots/12.png" width=320>
-<img src = "screenshots/13.png" width=320>
+## What it does?:
 
+1. Check git repository for nedw commit
+2. clone the code into the system
+3. Compile test/Using JRE create class file
+4. Check if class file is created successfully
+5. Run the code in java environment
+6. Check the output
+7. If the output is successful
+8. Declare success
 
-## Purpose:
+<img src = "screenshots/11.png" width=600>
 
-1. Low-cost, self-maintained data parsing server.
-2. Which can do data acces from internet.
-3. Do data manipulation
-4. Host a web app/site to present that data.
-5. Use third party APIs
+## Main View of Jenkins Desktop View
+<img src = "screenshots/0.png" width=800>
 
-## Project Structure:
+## Assignment Project View
+<img src = "screenshots/1.png" width=800>
 
-1. **SERVER SETUP (back-end)** 
-   - HARDWARE
-     - RASPBERRY PI
-     - ROUTER
-   - SOFTWARE
-     - APACHE
-     - PHP
-     - MARIA DB
-     - GIT
-     - OTHERS
-   - SECURITY
-     - ACCESS CONTROLS
-     - HEADLESS & PASSWORDLESS SETUP
-     - AUTO UPDATE
-   - ACCOUNT SETUP
-     - DOMAIN NAME CREATION
-     - API FOR HOSTING SITE ON DNS
-     - AUTO UPDATE IP ADDRESS 
-     <img src = "Screenshots/domainAPI.png" width=400>
-     <img src = "Screenshots/lamp.png" width=300>
-     
-2. **WEB ACCESS / DATA RETRIEVEL**
-   - API
-     - GOOGLE MAPS
-       - ACCOUNT
-       - API KEY SETUP
-       - .
-       <img src = "Screenshots/map1.png" width=200> <img src = "Screenshots/map2.png" width=200> <img src = "Screenshots/map3.png" width=180>
-   - DATA RETRIEVEL
-     - THE NEW YORK TIMES (git repo)
-       - https://github.com/nytimes/covid-19-data
-     - GIT
-       - CLONE
-       - AUTO UPDATE
-       - CRON JOBS
-       <img src = "Screenshots/pull.png" width=300>
-3. **DATA MANIPULATION**
-   - SHELL SCRIPTS
-     - CONVERT DOWNLOADED DATA
-     - SPLIT DATA
-       - ACCORDING TO THE STATES
-       - ACCORDING TO THE COUNTIES
-     - STORE AT SERVER
-       - DATA INTEGRITY IN MIND
-     - SYNC WITH WEB SERVER
-       - SECURE DATA TRANSFER
-     <img src = "Screenshots/split.png" width=300>     
+## Build History
+<img src = "screenshots/2.png" width=800>
 
-4. **WEB APP/SITE (front-end)**
-   - SOFTWARE
-     - HTML
-     - CSS
-     - JAVASCRIPT
-   - DOMAIN NAME
-     - www.HeemsResources.com
+## Git Polling Log
+<img src = "screenshots/4.png" width=800>
 
-5. **USAGE**
-   - GO TO: www.HeemsResources.com
-   - GOOGLE MAPS IS INTEGRATED
-   - FOR STATE COVID-19 DATA CLICK ON THE NAME
-   - CLICK ON 'LOAD DATA'
-   - WEB SCREEONSHOTS
-   <img src = "Screenshots/cell1.jpg" width=300> <img src = "Screenshots/cell2.jpg" width=300>
-   <img src = "Screenshots/site-index.png" width=800>
-   <img src = "Screenshots/NY-data-page.png" width=800>
+## Git Build Data
+- Git commit hash code
+- Branch name local and github
+<img src = "screenshots/5.png" width=800>
+
+## Console output of the cloned repository
+<img src = "screenshots/6.png" width=800>
+
+## Jenkins project/Assignment project Configuration page
+<img src = "screenshots/7.png" width=800>
+
+## Source code management page
+<img src = "screenshots/8.png" width=800>
+
+## Build Triggers
+- How frequent the project would be run
+<img src = "screenshots/9.png" width=800>
+
+## Build Settings
+<img src = "screenshots/10.png" width=800>
+
+## Use of CatLight
+- Desktop notifications for builds happening in jankins
+<img src = "screenshots/13.png" width=800>
