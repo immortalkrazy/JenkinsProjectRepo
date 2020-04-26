@@ -48,4 +48,4 @@
 
 ## Use of CatLight
 - Desktop notifications for builds happening in jankins
-<img src = "screenshots/13.png" width=800>
+<img src = "screenshots/13.png" width=400>
